@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show On Scroll</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Thực ra thẻ <section> cũng giống như <div> thôi 
+        nhưng khi code có ý nghĩa gì đó 
+    sẽ giúp con bot của google tra ra 
+Vd: header,footer cũng là những thẻ có ngữ nghĩa riêng của nó 
+        left-to-right: thể loại animation
+        show-on-scroll: những cái sẽ đc animation
+-->
+
+    <section id="home">
+        <h1 class="left-to-right show-on-scroll">Mai Quynh Trang</h1>
+        <div class="description left-to-right show-on-scroll">I love you more than planned</div>
+    </section>
+    <section id="about">
+        <div class="box left-to-right show-on-scroll">
+            <div class="title">Trang</div>
+            <div class="description">Meeting you was a nice accident</div>
+        </div>
+        <div class="box right-to-left show-on-scroll">
+            <div class="title">Dung</div>
+            <div class="description">Toi thot len la Damn, vo mot cai co ay bao la slatt!</div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="member zoom show-on-scroll">
+            <div class="name">DB8</div>
+            <div class="description">🕊🤍</div>
+        </div>
+        <div class="member zoom  show-on-scroll">
+            <div class="name">In Love</div>
+            <div class="description">
+                I miss you!
+            </div>
+        </div>
+        <div class="member zoom show-on-scroll">
+            <div class="name">TB9</div>
+            <div class="description">🦋🤍</div>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+
+</html>
